@@ -55,7 +55,6 @@
                     <debug>true</debug>
                     <compilerArguments>
                         <Xlint/>
-                        <Werror />
                     </compilerArguments>
                 </configuration>
             </plugin>
