@@ -54,7 +54,6 @@
                     <showWarnings>true</showWarnings>
                     <debug>true</debug>
                     <compilerArguments>
-                        <Xlint/>
                         <Werror />
                     </compilerArguments>
                 </configuration>
