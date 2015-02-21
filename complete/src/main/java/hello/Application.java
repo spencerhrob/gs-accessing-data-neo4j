@@ -47,7 +47,6 @@ public class Application extends Neo4jConfiguration implements CommandLineRunner
         } finally {
             tx.close();
         }
-
     }
 
     public static void main(String[] args) throws Exception {
@@ -55,5 +54,4 @@ public class Application extends Neo4jConfiguration implements CommandLineRunner
 
         SpringApplication.run(Application.class, args);
     }
-
 }

@@ -14,10 +14,10 @@ public class Person {
     public Person() {}
     public Person(String name) { this.name = name; }
 
-    @RelatedTo(type="MEMBER_OF_DOJO", direction=Direction.OUTGOING)
+    @RelatedTo(type="MEMBER_OF", direction=Direction.OUTGOING, enforceTargetType=true)
     Dojo dojo;
     
-    @RelatedTo(type="MEMBER_OF_LIST", direction=Direction.OUTGOING)
+    @RelatedTo(type="MEMBER_OF", direction=Direction.OUTGOING, enforceTargetType=true)
     MailingList mailingList;
 
     public void setDojo(Dojo dojo) {
